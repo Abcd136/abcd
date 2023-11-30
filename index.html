@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>软件大全</title>
+    <title>试图成为藤原拓海的老司机</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,19 +53,95 @@
         }
         .no-underline {
     text-decoration: none;
-  }
+    }
+    ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="#home">首页</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">安卓</a>
+            <div class="dropdown-content">
+                <a href="https://abcd136.github.io/ab12/">梯子</a>
+                <a href="#">视频</a>
+                <a href="#">小说</a>
+                <a href="#">网盘</a>
+                <a href="#">以图搜图</a>
+                <a href="#">手游</a>
+                <a href="#">工具</a>
+                <a href="#">漫画</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">电脑</a>
+            <div class="dropdown-content">
+                <a href="#">软件</a>
+                <a href="#">梯子</a>
+                <a href="#">游戏网站</a>
+                <a href="#">游戏加速器</a>
+                <a href="#">网站大全</a>
+            </div>
+    </ul>
     </style>
 </head>
 <body>
     <header>
         <h1>软件大全</h1>
     </header>
-    <nav>
-        <a href="#">首页</a>
-        <a href="#">安卓</a>
-        <a href="#">电脑</a>
-        <a href="#">18+</a>
-    </nav>
     <main>
         <div class="software">
             <img src="https://i.postimg.cc/mrnYn7RJ/0dd7912397dda144322fe7e5bdb7d0a20cf48647.webp" alt="软件图片">
